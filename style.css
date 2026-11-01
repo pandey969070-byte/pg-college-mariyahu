@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+<!--
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    background: #f1f1f5;
+    color: #000000;
+    background-image: url("photo\ pfd.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+-->
+header {
+    background: #101820;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    margin: 10px;
+}
+
+nav {
+   
+}
+.college-logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.form-box {
+    background: rgba(255, 255, 255, 0.95);
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ccc;
+}
+
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+.form-box p {
+    margin-top: 10px;
+}
+
+.form-box a {
+    color: blue;
+}
+
+footer {
+    background: #101820;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.main-nav {
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0%;
+     z-index: 1000%;
+
+    
+background-color: rgb(220, 11, 11);
+padding: 12px 25px;
+width: 100%;
+color: #aaa;
+}
+
+.main-nav h2 {
+    color: #263b65;
+}
+
+.main-nav a {
+    color: #222;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.hero {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.35),
+        rgba(0,0,0,0.35)
+    ), url("photo\ pfd.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding: 80px 40px;
+    color: white;
+
+}
+
+.hero h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.know {
+    display: inline-block;
+    background: #0099ff;
+    color: white;
+    padding: 12px 20px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+section:not(.hero) {
+    padding: 35px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.courses div {
+    background: #dceaff;
+    padding: 20px 35px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+@media(max-width: 600px) {
+    .form-box {
+        width: 90%;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero m {
+        color: rgb(30, 189, 38);
+        position: absolute;
+        top: 50%;
+        left: 50;
+        transform: translate(-50%,-50%);
+        background-color: #c2cabc;
+        padding: 20px;
+        text-align: 20px;
+        border-radius: 10px;
+    }
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f2f5fa;
+        }
+
+        h1 {
+            text-align: center;
+            color: #183153;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #555;
+            margin-bottom: 35px;
+        }
+
+        .course-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .course-box {
+            background: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            transition: 0.3s;
+            border-top: 5px solid #007bff;
+        }
+
+        .course-box:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .course-box h2 {
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .course-box p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .course-box button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .course-box button:hover {
+            background: #0056b3;
+        }
+
+        @media (max-width: 600px) {
+            .course-container {
+                grid-template-columns: 1fr;
+            }
+        
+        section{
+            text-align: center;
+        }
+
+        }
