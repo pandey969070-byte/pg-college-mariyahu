@@ -76,11 +76,11 @@ if (loginForm) {
 
             window.location.href = "home.html";
 
-        } else {
+        }/* else {
 
             alert("Invalid Email, Roll Number or Password!");
 
-        }
+        }*/
 
     });
 }
