@@ -27,10 +27,10 @@ if (registerForm) {
             s.roll === student.roll
         );
 
-        if (exists) {
+       /* if (exists) {
             alert("Email or Roll Number already registered!");
             return;
-        }
+        }*/
 
         students.push(student);
 
@@ -41,7 +41,7 @@ if (registerForm) {
 
         alert("Registration Successful!");
 
-        window.location.href = "home.html";
+        window.location.href = "index.html";
     });
 }
 
