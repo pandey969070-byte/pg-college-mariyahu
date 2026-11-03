@@ -74,7 +74,7 @@ if (loginForm) {
 
             alert("Login Successful! Welcome " + student.name);
 
-            window.location.href = "register.html";
+            window.location.href = "home.html";
 
         } else {
 
